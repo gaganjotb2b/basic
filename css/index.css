@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nav_ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+
+.nav_li{
+    list-style: none;
+   
+}
+
+.nav{
+    padding: 8px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px black;
+
+}
+
+.btn{
+    background: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 8px; 
+    font-size: larger; 
+}
+
+.btn:hover{
+    background-color: green;
+
+}
+
+.nav_a:hover{
+color:green;
+}
+
+
+/*   section  2  Hero-section */
+
+.hero-section{
+    background-image: url("../img/43733dfe08118f32bbcb51402b58ffa8-2-1.jpg");
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.hero1{
+
+    padding: 90px 135px;
+    font-size: 30px;
+    
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero_button{
+
+font-size: 40px;   
+border: 2px solid black; 
+padding: 12px 30px;
+border-radius: 12px;
+background-color: transparent;
+}
+
+
+.content{
+   
+    padding: 25px;
+    margin: 30px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* section  4 */
+
+
+.trust{
+ 
+    display: flex;
+    gap: 20px;
+}
+
+.truth_heading{
+font-size: 65px;
+font-weight: 300;
+
+}
+
+
+
+.truth-part1{
+   
+    margin: 50px 20px;
+    
+   
+}
+
+.truth_heading{
+    padding-bottom: 20px;
+}
+
+.truth_image{
+padding: 25px 0px;
+width: 35vw;
+height: 88vh;    
+}
+
+
+.truth-part2{
+  
+    padding:  30px 20px;
+  
+   
+}
+
+
+.truth_li{
+    list-style-type: disc;
+    font-size: 25px;
+    padding: 8px;
+}
+
+
+
+
+
+
+/* Section 5  */
+
+.services_block{
+   
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.services_part1{
+padding:30px;
+}
+
+.services_heading{
+font-size: 65px;
+padding-bottom: 10px;
+}
+
+.services_part2{
+padding: 10px;
+}
+
+.services_img{
+    
+    margin: 10px;
+    height: 88vh;
+}
+
+.section_li{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+
+
+
+/* section 6 */
+
+.why_choose_us{
+    background-color: hwb(135 87% 1%);
+    height: 150vh;
+}
+
+.heading{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+.section6_heading{
+    font-size: 65px;
+    padding: 25px;
+    font-weight: 10;
+    font-family: "Inter", sans-serif;
+}
+
+.item-1{
+    text-align: center;
+    
+}
+
+.item-2{
+    text-align: center; 
+}
+
+.section6_para{
+    font-size: 25px;
+    border: 2px solid red;
+    padding: 10px 190px;
+}
+
+.item2_head{
+    font-size: 19px;
+    padding: 10px;
+}
+
+.item-1_img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+
+.item2_paragraph{
+    font-size: 20px;
+}
+
+.child{
+  
+    width: 40vw;
+    padding: 30px;
+
+    margin: 30px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* section 7 */
+
+
+
+
+
+.section7{
+    background-color: #000;
+    width: 100vw;
+    height: 70vh;
+    margin-bottom: 40px;
+}
