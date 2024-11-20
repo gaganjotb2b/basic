@@ -11,13 +11,21 @@
 }
 .nav_ul{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-size: 20px;
     
 }
 
 .nav_li{
     list-style: none;
+    transition: color 2s;
+   
+}
+
+.nav_li:hover{
+    color:green;
+    cursor: pointer;
+    transition: color 1s ease;
    
 }
 
@@ -26,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px black;
+   
 
 }
 
@@ -36,15 +44,50 @@
     padding: 10px 30px;
     border-radius: 8px; 
     font-size: larger; 
+    
 }
 
 .btn:hover{
     background-color: green;
+    transition: background-color .5s ease;
 
 }
 
-.nav_a:hover{
-color:green;
+
+.toggle_btn{
+    font-size: 50px;
+}
+
+
+@media (max-width:768px) {
+    .navbar-elements{
+        display:none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+
+    .trust {
+        display: block; /* Change flex to block on smaller screens */
+    }
+
+    .truth-part1, 
+    .truth-part2 {
+        width: 100%; /* Make both parts take 100% width */
+    }
+
+    
+
+
+    
+}
+
+@media (min-width:1200px) {
+.toggle{
+    display: none;
+}
 }
 
 
@@ -52,8 +95,11 @@ color:green;
 
 .hero-section{
     background-image: url("../img/43733dfe08118f32bbcb51402b58ffa8-2-1.jpg");
-    width: 100vw;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
 
 }
 
@@ -108,36 +154,49 @@ font-weight: 300;
 
 
 .truth-part1{
-   
-    margin: 50px 20px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: flex-end;
     
-   
-}
+    height: 750px;
+    
+    }
 
 .truth_heading{
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
 .truth_image{
-padding: 25px 0px;
-width: 35vw;
-height: 88vh;    
+
+max-width: 80%;
+height: 90%;
+
+    
 }
 
 
 .truth-part2{
-  
-    padding:  30px 20px;
-  
+padding-left: 50px;
+    width: 50%;
+    
    
 }
+
+
 
 
 .truth_li{
     list-style-type: disc;
     font-size: 25px;
-    padding: 8px;
+    line-height: 1.8;
+    font-family: "Roboto", sans-serif;
+
+    
 }
+
+
 
 
 
@@ -155,28 +214,47 @@ height: 88vh;
 
 
 .services_part1{
-padding:30px;
+width: 50%;
+
+}
+
+.part1_content{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 50px;
+   
 }
 
 .services_heading{
 font-size: 65px;
 padding-bottom: 10px;
+font-family: "Roboto", sans-serif;
+
 }
 
 .services_part2{
-padding: 10px;
+    width: 50%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
 }
 
 .services_img{
-    
-    margin: 10px;
-    height: 88vh;
+    height: 80%;
 }
 
 .section_li{
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     padding: 10px;
+   
+    
 }
 
 
@@ -185,20 +263,23 @@ padding: 10px;
 /* section 6 */
 
 .why_choose_us{
-    background-color: hwb(135 87% 1%);
-    height: 150vh;
+    background-color: #F9FFF2;
+    
 }
 
 .heading{
-    border: 1px solid #000;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
 }
 
 
 .section6_heading{
     font-size: 65px;
-    padding: 25px;
-    font-weight: 10;
+    
+    font-weight: 100;
     font-family: "Inter", sans-serif;
 }
 
@@ -208,18 +289,22 @@ padding: 10px;
 }
 
 .item-2{
-    text-align: center; 
+    text-align: center;
+    
 }
+
 
 .section6_para{
     font-size: 25px;
-    border: 2px solid red;
-    padding: 10px 190px;
+    width: 50%;
+    text-align: center  ;
+  
+   
 }
 
 .item2_head{
-    font-size: 19px;
-    padding: 10px;
+    font-size: 24px;
+    padding: 15px;
 }
 
 .item-1_img{
@@ -234,15 +319,14 @@ padding: 10px;
 }
 
 .child{
-  
-    width: 40vw;
-    padding: 30px;
-
-    margin: 30px;
+    width: 45%;
+    padding: 3px;
+    margin: 40px;   
 }
 
 .parent{
     display: flex;
+    
     flex-wrap: wrap;
 }
 
@@ -258,7 +342,32 @@ padding: 10px;
 
 .section7{
     background-color: #000;
-    width: 100vw;
-    height: 70vh;
+   
     margin-bottom: 40px;
+    color: aliceblue;
 }
+
+.section7_sections1{
+    padding: 0 150px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+.section7_sections2{
+    padding: 0 150px;
+text-align: justify;
+text-align-last: center;
+
+}
+
+.section7_sections3{
+ 
+    padding: 0 150px;
+    }
+
+
+.section7_1heading{
+    font-size: 45px;
+}
+
