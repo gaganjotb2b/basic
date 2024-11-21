@@ -12,42 +12,64 @@
 </head>
 <body>
 <!-- section ko class name container nhi dete ek div bna jiski class container dete h  -->
-    <section>
-        <div class="container">
-            <div class="nav">
-                <div class="nav-logo">
-                    <img src="../img/img1.svg" alt="">
-                 </div>
-                
-                    <div class="navbar-elements">
-                
-                        <ul class="nav_ul">
-                            <li class="nav_li"> Home </li>
-                            <li class="nav_li"> About Us </li>
-                            <li class="nav_li"> Our Services </li>
-                            <li class="nav_li"> Why Choose US </li>
-                            <li class="nav_li"> Portfolio </li>
-                            <li class="nav_li"> Meet The Team </li>
-                        </ul>
-                    </div>
-                
-                    <div class="nav-btn">
-                        <button class="btn">
-                            Contact US 
-                        </button>
-                    </div>
+    
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
 
-                    <div class="toggle">
-                        <span class="toggle_btn">
-                            =
-                        </span>
-                    </div>
-            </div>
-           
-           
-               </div>
-           
-    </section>
+      <a class="navbar-brand" href="#">
+        <img src="../img/img1.svg" alt="" />
+      </a>
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active  mx-4" aria-current="page" href="#">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active mx-4" aria-current="page" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="#">
+              Why Choose US
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="#">
+              Portfolio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="#">
+              Meet the Team
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="btn btn-dark d-none d-sm-none d-lg-block">
+        Contact US
+      </button>
+    </div>
+  </nav>
 
 
     <!-- Section 2 -->
@@ -76,15 +98,15 @@
     </section>
 
 
-<!-- Section 3 Content -->
+    <!-- Section 3 Content -->
 
-<section class="content_section">
-   <div class="container">
-    <div class="content">
-        <p>We develop and fund the strategic plans, business systems, and leadership teams of exceptional companies. We partner with the founders and provide capital, mentorship, management systems, growth expertise and strategic guidance. Our approach helps founders in building their dreams sustainably and profitably.</p>
+    <section class="content_section">
+    <div class="container">
+        <div class="content">
+            <p class="p_content">We develop and fund the strategic plans, business systems, and leadership teams of exceptional companies. We partner with the founders and provide capital, mentorship, management systems, growth expertise and strategic guidance. Our approach helps founders in building their dreams sustainably and profitably.</p>
+        </div>
     </div>
-   </div>
-</section>
+    </section>
 
 
 
@@ -92,7 +114,7 @@
 <section class="trust_section">
     <div class="container">
 
-        <div class="trust">
+        <div class="truth">
           
             <div class="truth-part1">
                 <img class="truth_image"src="../img/img3.webp" alt="">
@@ -131,7 +153,9 @@
 
 
                 <div class="services_part1">
+
                    <div class="part1_content">
+
                     <p class="services_heading">Our Services:</p>
 
                     <ul class="section_ul">
@@ -151,6 +175,8 @@
                    </div>
 
                 </div>
+
+                
                 <div class="services_part2">
                     <img class="services_img" src="../img/services.png" alt="">
                 </div>

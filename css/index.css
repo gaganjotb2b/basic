@@ -61,46 +61,7 @@
 }
 
 
-@media (max-width:768px) {
-    .navbar-elements{
 
-        display:none;
-
-    }
-
-    .nav-btn{
-
-        display: none;
-
-    }
-
-
-    .trust {
-
-        display: block; /* Change flex to block on smaller screens */
-
-    }
-
-    .truth-part1, 
-    .truth-part2 {
-
-        width: 100%; /* Make both parts take 100% width */
-
-    }
-
-   
-
-
-    
-}
-
-@media (min-width:1200px) {
-.toggle{
-
-    display: none;
-
-}
-}
 
 
 /*   section  2  Hero-section */
@@ -132,7 +93,6 @@ a{
 .hero_button{
 
 font-size: 40px;   
-border: 2px solid black; 
 padding: 12px 30px;
 border-radius: 12px;
 background-color: transparent;
@@ -140,12 +100,24 @@ background-color: transparent;
 }
 
 
-.content{
-   
-    padding: 25px;
-    margin: 30px;
-    font-size: 25px;
 
+
+/* Section3 */
+
+
+
+.content{
+    
+    width:90%;
+    margin:0 auto;
+
+}
+.p_content{
+    
+    width: 90%;
+    padding: 30px;
+    margin:0 auto;
+    font-size: 20px;
 }
 
 
@@ -155,11 +127,145 @@ background-color: transparent;
 
 /* section  4 */
 
+@media (max-width:768px) {
+   
+    /* Section5 ----- Our services*/
+   .services_part1,
+    .services_part2{
+        width: 100% !important;
+    }
 
-.trust{
+/* Setion4 ----- Our Truth*/
+.truth-part1,
+.truth-part2{
+    width:100% !important;
+    font-size: 58px;
+}
+
+.truth_heading {
+    font-size: 50px!important;
+}
+/* Section6---Why ChooseUS */
+
+.section6_heading{
+    font-size: 45px!important;
+}
+
+.section6_para{  
+      font-size: 14px !important;
+    width: 100% !important;}
+
+    .item2_head {
+        font-size: 18px!important;}
+
+        .item2_paragraph {
+            font-size: 14px!important;}
+
+    .child {
+        width: 100% !important;
+        padding: 10px;}
+
+
+    .hero1 {
+        padding: 8px 58px;
+        font-size: 30px;}
+
+    .hero_button {
+        font-size: 27px;
+        padding: 2px 20px;
+        border-radius: 12px;}
+
+
+
+
+
+    /* Section8--------Animation */
+
+    .section7_part1 {
+        width: 105%!important;
+        font-size: 16px!important;}
+
+        .section7_part2 {
+            width: 100% !important;
+            margin: auto !important;
+            font-size: 13px !important  ;}
+
+
+
+    /* Section9------------About */
+    .section8_heading {
+        padding: 0px;
+        font-size: 18px !important;}
+
+
+        .section8_para {
+            font-size: 13px !important;
+            font-family: "Inter", sans-serif;
+            line-height: 1;}
+
+            .section8_part1 {
+                width: 100% !important;}
+.section8_part2_img_parent{
+    flex-wrap:wrap !important;
+}
+.img{
+    width:100% !important;
+}
+
+
+
+
+
+/* Section10 */
+
+.section9_heading {
+    font-family: "Inter", sans-serif;
+    font-size: 17px !important;
+    width: 100%;
+}
+
+
+
+
+.section9_button {
+    border-radius: 23px;
+    font-size: 16px !important;
+    padding: 9px 21px;
+    margin: 0;
+
+}
+
+
+
+
+/* Section----Fotter */
+
+.section10_div1_part1:nth-child(-n+3) {
+    width: 100% !important; 
+    
+    
+}
+
+
+.part_section10_1 {
+    flex-wrap: wrap;
+}
+
+
+.part_section10_2 {
+    border-top: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+
+.trust_section{
+    
+padding: 10px;
+}
+.truth{
  
     display: flex;
-    gap: 20px;
+    flex-wrap:wrap ;
 
 }
 
@@ -173,36 +279,30 @@ font-weight: 300;
 
 
 .truth-part1{
-
-    display: flex;
-    align-items: center;
-    width: 40%;
-    justify-content: flex-end;
-    height: 750px;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+   
     
     }
 
 .truth_heading{
-
     padding-top: 50px;
     padding-bottom: 20px;
-
 }
 
 .truth_image{
-
-max-width: 80%;
-height: 90%;
-
     
+width: 90%;
+margin: 0 auto;
+height: 100%;
 }
 
 
 .truth-part2{
 
-padding-left: 50px;
-    width: 50%;
-    
+width: 50%;
+
 }
 
 
@@ -212,7 +312,7 @@ padding-left: 50px;
 
     list-style-type: disc;
     font-size: 25px;
-    line-height: 1.8;
+    line-height: 1.5;
     font-family: "Roboto", sans-serif;
 
 }
@@ -229,15 +329,15 @@ padding-left: 50px;
 .services_block{
    
     display: flex;
-    justify-content: space-between;
-    width:70%;
+    flex-wrap: wrap ;
+    width:100%;
     margin: 0 auto;
+   ;
 
 }
 
 
 .services_part1{
-   
 width: 50%;
 
 
@@ -259,13 +359,14 @@ font-family: "Roboto", sans-serif;
  
     width: 50%;
     text-align: center;    
-    height: 750px;
+    height: 100%;
+   
+    margin: auto;
 
 }
 
 .services_img{
-    width: 592px;
-    height: 729px;
+    width: 100%;
     
 
 }
@@ -294,16 +395,10 @@ font-family: "Roboto", sans-serif;
     
 }
 
-.heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    line-height: 1.5;
-}
 
 
 .section6_heading{
+    text-align: center;
      padding-top: 20px;
     font-size: 65px;
     font-weight: 100;
@@ -327,12 +422,12 @@ font-family: "Roboto", sans-serif;
 
 
 .child{
-    
     width: 45%;
-    padding: 10px; 
+    padding-top: 30px; 
     
     font-family: "Inter", sans-serif;
     line-height: 30px;
+    
     font-weight: 400;
   
 
@@ -342,14 +437,14 @@ font-family: "Roboto", sans-serif;
 .item-1{
     
     margin: 0 auto;
-    width: 70%;    
+    width: 100%;    
     text-align: center;
 }
 
 .item-2{
     
         margin: 0 auto;
-    width: 70%;    
+    width: 100%;    
     text-align: center;
 }
 
@@ -366,7 +461,8 @@ font-family: "Roboto", sans-serif;
 .section6_para{
 
     font-size: 25px;
-    width: 50%;
+    width: 64%;
+    margin: auto;
     
   
    
@@ -423,7 +519,7 @@ margin: 15 auto;
 }
 
 .section7_part1{
-    width: 86%;
+    width: 88%;
     margin: 15 auto;
     
     font-size: 46px;
@@ -436,7 +532,7 @@ margin: 15 auto;
 
 .section7_part2{
   
-    width: 78%;
+    width: 85%;
     margin: 15 auto;
     font-size: 30px;
     text-align: justify;
@@ -445,24 +541,12 @@ margin: 15 auto;
 }
 
 
-.section7_part2::before{
-    content: '"';
-    font-size:50px;
-    color:green;
-}
-
-.section7_part2::after{
-    content: '"';
-    font-size:50px;
-    color:green;
-}
-
 
 
 
 .section7_part3{
 
-    width:78%;
+    width:89%;
    display: flex;
    justify-content: space-between;
    margin: 0 auto;
