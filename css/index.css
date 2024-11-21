@@ -396,10 +396,170 @@ font-family: "Roboto", sans-serif;
 
 
 
-.main_7{
-      
+.section7{
+      background-color: black;
+      color: aliceblue;
+      overflow: hidden;
 }
 
+
+.main_7{
+ 
+    width:95%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    animation: slide_from_right 1s ease-in;
+    /* overflow: hidden; */
+}
+
+.section7_heading_parent{
+width:100%;
+margin: 15 auto;
+
+}
+
+.section7_part1{
+    width: 78%;
+    margin: 15 auto;
+    
+    font-size: 46px;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+   
+   
+}
+
+
+.section7_part2{
+  
+    width: 78%;
+    margin: 15 auto;
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px;
+   
+}
+
+
+.section7_part2::before{
+    content: '"';
+    font-size:50px;
+    color:green;
+}
+
+.section7_part2::after{
+    content: '"';
+    font-size:50px;
+    color:green;
+}
+
+
+
+
+.section7_part3{
+
+    width:78%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 10px;
+    
+   
+}
+
+
+.name_emp{
+    font-size: 24px;
+}
+
+.position_name1{
+    font-size: 30px;
+    float: left;
+}
+
+.position_name2{
+    font-size: 30px;
+    float: right;
+}
+
+
+
+
+
+
+
+/* ============================================================= */
+
+/* Section8 */
+
+.section8_main{
+    padding: 15px;
+    
+}
+
+
+.section8_part1{
+   
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+   
+    text-align: center;
+}
+
+
+.section8_heading{
+padding: 5px;
+font-family: "Inter", sans-serif;
+font-size: 75px;
+}
+
+
+.section8_para{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    
+}
+
+
+.section8_part2{
+   
+    margin: 0 auto;
+    
+ 
+    
+}
+.section8_part2_img_parent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img{
+    
+    width:20%;
+
+}
+
+.img_des{
+    text-align: center;
+}
+
+
+.name{
+    font-size: 24px;
+    font-family: "Inter",sans-serif;
+}
+.position{
+    font-size: 20px;
+    font-family: "Inter",sans-serif;
+}
+
+.img_section8{
+    width: 100%;
+    border-radius: 12px;
+}
 
 @keyframes slide_from_right{
     0%{
