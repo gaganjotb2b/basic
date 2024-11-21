@@ -135,6 +135,19 @@ background-color: transparent;
         width: 100% !important;
     }
 
+    .services_heading {
+        font-size: 35px !important;
+        text-align: center;}
+
+
+        .section_li {
+            font-size: 17px !important;
+            padding: 4px;
+            width: 70% !important;
+            margin: 0 auto;
+            line-height: 1.3;
+        }
+
 /* Setion4 ----- Our Truth*/
 .truth-part1,
 .truth-part2{
@@ -257,8 +270,10 @@ background-color: transparent;
     flex-wrap: wrap;
 }
 
+}
 
-.trust_section{
+
+.truth_section{
     
 padding: 10px;
 }
@@ -620,13 +635,14 @@ font-size: 75px;
 }
 .section8_part2_img_parent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
 .img{
     
-    width:20%;
+    width:23%;
+    gap: 4px;
 
 }
 
